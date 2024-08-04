@@ -12,7 +12,7 @@ class Utils {
     static func getVC() -> UIViewController {
         let viewController = UIApplication.shared.windows.filter({ (w) -> Bool in
             w.isHidden == false
-        }).first?.rootViewController
+        }).last?.rootViewController
         
         return viewController!
     }
