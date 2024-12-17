@@ -74,6 +74,17 @@ dependencies {
 
 
     // 融合SDK
-    implementation(name: 'open_ad_sdk_6.0.1.4', ext: 'aar')
+//    implementation(name: 'open_ad_sdk_6.0.1.4', ext: 'aar')
+    implementation "com.pangle.cn:mediation-sdk:6.5.0.2"
     implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+
+    implementation "com.pangle.cn:mediation-gdt-adapter:4.603.1473.1"
+    implementation "com.pangle.cn:mediation-ks-adapter:3.3.69.1"
+
+// adn
+//gdt优量汇
+    implementation(name: "GDTSDK.unionNormal.4.603.1473", ext: 'aar')
+
+//ks快手
+    implementation(name: "kssdk-ad-3.3.69", ext: 'aar')
 }
